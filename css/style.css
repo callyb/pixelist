@@ -258,14 +258,7 @@ footer a:active {
 	
 	padding-top: 10px;
 	animation-iteration-count: infinite;
-	-moz-animation-iteration-count: infinite;
-	-ms-animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-
-	animation-easing: linear;
-	-moz-animation-easing: linear;		
-	-ms-animation-easing: linear;	
-	-webkit-animation-easing: linear;	
+	animation-timing-function: linear;
 }
 
 
@@ -369,10 +362,8 @@ figcaption {
 
   	opacity: 0;
   	bottom: 0; 
-  	left: -30%;
-  	-webkit-transition: all 0.6s ease;
-  	-moz-transition:    all 0.6s ease;
-  	-o-transition:      all 0.6s ease;
+	left: -30%;
+	transition: all 0.6s ease;
 }
 
 figure:hover figcaption, 
@@ -567,7 +558,6 @@ ul.tabs li a.active {
   margin: 0;
 }
 
-#one { }
 
 #two { display: none; }
 
@@ -854,7 +844,7 @@ body {
 	}
 
 div.navbar-default > div.container{
-		background-color: rgba(99, 184, 255; 
+		background-color: rgba(99, 184, 255); 
 	}	
 }
 
